@@ -34,12 +34,12 @@ int main() {
 	struct node *a;
 	a=(struct node *)malloc(sizeof(struct node));
 	a->knowed=NULL;
-	a->i='5';
+	a->i=5;
 	
 	struct node *b;
 	b=(struct node *)malloc(sizeof(struct node));
 	b->knowed=NULL;
-	b->i='0';
+	b->i=8;
 	
 	 printf("---- testing print_list\n");
 	 print_list(a);
