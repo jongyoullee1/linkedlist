@@ -1,5 +1,5 @@
-stringy: stringy.c
-	gcc stringy.c -o stringy
+linkedlist: linkedlist.c
+	gcc linkedlist.c -o linkedlist
   
-run: stringy
-	./stringy
+run: linkedlist
+	./linkedlist
